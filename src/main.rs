@@ -15,7 +15,7 @@ fn main() {
     let a = [10, 20, 30, 40, 50];
     let a_sliced = &a[1..3];
     let number: i32 = 5;
-    let r1 = &s;
+    let r1 = &mut s;
     let r2 = &s;
     println!("r1: {}, r2: {}", r1, r2);
     let r3 = &mut s;
