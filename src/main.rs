@@ -11,7 +11,7 @@ fn main() {
         active: true,
         sign_in_count: 1,
     };
-    let mut s = String::from("hello");
+    let mut s = String::from("hello July 14th");
     let a = [10, 20, 30, 40, 50];
     let a_sliced = &a[1..3];
     let number: i32 = 5;
